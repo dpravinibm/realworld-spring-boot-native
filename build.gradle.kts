@@ -4,10 +4,10 @@ plugins {
     java
     jacoco
     id("com.diffplug.spotless") version "6.18.0"
-    id("org.springframework.boot") version "3.0.5"
-    id("io.spring.dependency-management") version "1.1.0"
-    id("org.graalvm.buildtools.native") version "0.9.20"
-    id("org.hibernate.orm") version ("6.2.2.Final")
+    id("org.springframework.boot") version "3.1.4"
+    id("io.spring.dependency-management") version "1.1.3"
+    id("org.graalvm.buildtools.native") version "0.9.27"
+    id("org.hibernate.orm") version ("6.2.9.Final")
 }
 
 group = "com.softwaremill"
